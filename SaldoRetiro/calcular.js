@@ -9,11 +9,10 @@ function calcular(){
     var pResultado = document.querySelector('#result');
 
     if (retiro <= saldo){
-        window.alert('Retiro exitoso!!');
         var resultado = saldo - retiro;
-        pResultado.textContent = "Tu nuevo saldo es: " + resultado;
+        pResultado.textContent = "Retiro exitoso!, su nuevo saldo es: " + resultado;
     }else{
-        window.alert('Saldo insuficiente!!');
+        pResultado.textContent = "Saldo insuficiente"
     }
 
 }

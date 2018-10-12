@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tienda Virtual</title>
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Tienda</h1>
+        </div>
+        <div>
+            <label for="cantidad">Cantidad de productos: </label>
+            <input type="number" id="cantidad" min="0">
+        </div>
+        <div>
+            <label for="precio">Precio de cada producto: $</label>
+            <input type="number" id="precio" min="0">
+        </div>
+        <div>
+            <button type="button" id="calcular">Calcular venta</button>
+        </div>
+        <div>
+            <p id="total"></p>
+        </div>
+    </form>
+</body>
+<script src="calculo.js"></script>
+</html>

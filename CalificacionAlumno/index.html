@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calificacion alumno</title>
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Calificacion del alumno</h1>
+        </div>
+        <div>
+            <label for="calificacion1">Primera Parcial: </label>
+            <input type="number" id="calificacion1" max="10" min="0">
+        </div>
+        <div>
+            <label for="calificacion2">Segunda Parcial: </label>
+            <input type="number" id="calificacion2" max="10" min="0">
+        </div>
+        <div>
+            <label for="calificacion3">Tercera Parcial: </label>
+            <input type="number" id="calificacion3" max="10" min="0">
+        </div>
+        <div>
+            <button  type="button" id="verificar">Calcular calificacion</button>
+        </div>
+        <div>
+            <p id="resultado"></p>
+        </div>
+    </form>
+</body>
+<script src="verificacion.js"></script>
+</html>
